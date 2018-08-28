@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Encuesta MPV</string>
+    <string name="Encuesta">Encuesta</string>
+    <string name="ic_excellent">ic_excellent</string>
+    <string name="excelente">Excelente!</string>
+    <string name="bien">Bien!</string>
+    <string name="normal">Normal</string>
+    <string name="mal">Mal</string>
+    <string name="muy_mal">Muy mal!</string>
+    <string name="question">¿Como encuentran los precios de MercaPLaza Popular?</string>
+    <string name="merca_plaza">Merca Plaza</string>
+    <string name="popular">Popular</string>
+</resources>

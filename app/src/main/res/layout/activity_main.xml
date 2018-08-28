@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlanco"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/action_bar" />
+
+        <TextView
+            android:id="@+id/questionsRandom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@color/colorRed"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <Button
+            android:id="@+id/ic_excellent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_excellent" />
+
+        <TextView
+            android:id="@+id/excelente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/excelente"
+            android:textColor="@color/colorNegro"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/ic_good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/ic_good" />
+
+        <TextView
+            android:id="@+id/good"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/bien"
+            android:textColor="@color/colorNegro"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/ic_normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/ic_normal" />
+
+        <TextView
+            android:id="@+id/normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/normal"
+            android:textColor="@color/colorNegro"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/ic_bad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/ic_bad" />
+
+        <TextView
+            android:id="@+id/bad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/mal"
+            android:textColor="@color/colorNegro"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/ic_very_bad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/ic_very_bad" />
+
+        <TextView
+            android:id="@+id/very_bad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/muy_mal"
+            android:textColor="@color/colorNegro"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+    </LinearLayout>
+
+</ScrollView>
